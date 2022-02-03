@@ -1,0 +1,16 @@
+
+
+.titulo{font-size:1.4em;padding: 30px 0px 20px 0px}
+
+.marker{margin: 0px 10px 0px 10px; height:20px}
+
+p{margin:10px 0px 10px 0px;line-height:22px}
+
+#opcoes{width:100%;margin: 50px 0px 40px 20%}
+
+.opcao{float:left;width:30%;margin-left:0.25%}
+
+.opcao img{width:100%}
+
+.opcao img:hover{filter:alpha(opacity=60);-moz-opacity: 0.6;opacity: 0.6}
+

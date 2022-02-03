@@ -1,0 +1,31 @@
+
+
+.item{float:left;background:#EEE;padding:20px 1% 20px 1%;margin:20px 1% 20px 1%;}
+
+.thumb_img{max-width:90%}
+
+
+
+@media (max-width: 800px){
+	
+	.item{width:29.3%;min-height:310px}
+}
+
+
+@media (min-width: 801px) and (max-width: 1250px){
+
+	.item{width:21%;min-height:300px}
+}
+
+
+
+@media (min-width: 1251px) and (max-width: 1600px){
+
+	.item{width:16%;min-height:320px}
+}
+
+
+@media (min-width: 1601px){
+
+	.item{width:16%;min-height:340px}
+}

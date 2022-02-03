@@ -1,0 +1,88 @@
+﻿
+#apresentacao{position:relative;margin-top:0;width:100%;background-image:url('../imgs/fundo.jpg');-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;background-repeat: no-repeat;background-position:center bottom;}
+#apresentacao #opcoes{position:absolute;left:0;width:100%;bottom:20px}
+#apresentacao #barra{color:#FFF;background:#FFF;width:120px;height:2px;margin-bottom:20px}
+#apresentacao .icon_opcoes{width:50px;margin:10px}
+#apresentacao .icon_opcoes:hover{width:54px;margin:8px;}
+
+#servicos .item_servico{float:left;min-height:330px;font-size:1.1em;}
+#servicos .item_servico .titulo{font-size:1.4em;}
+#servicos .item_servico a{color:#58A3E8;font-weight:bold}
+
+#div_clientes{min-height:100px;padding: 30px 0px 0px 0px}
+#clientes_titulo{color:#000;font-size:1.4em;margin: 40px 0px 25px 0px}
+#clientes_subtitulo{color:#000;font-size:1.1em;margin: 20px 0px 100px 0px}
+#container_itens_clientes{width:100%;font-size:1.1em;margin:0px 1% 0px 1%}
+.item_clientes{float:left;margin:10px 0px 0px 0px;text-align:center}
+.item_clientes_principais{float:left;margin:10px 0px 0px 0px;text-align:center}
+.img_chamadas{max-width:80%}
+#container_itens_clientes a{color:#58A3E8;font-weight:bold}
+
+#div_tecnologias{padding: 25px 0px 40px 0px}
+.logo_tech{width:70%;margin: 25px 10px 5px 10px;max-height:90px}
+#tech_titulo{font-size:1.4em;margin: 40px 0px 25px 0px}
+#sub_titulo{font-size:1.1em;margin: 20px 0px 30px 0px}
+
+
+.bt{
+	
+	min-width:200px;
+	height:40px;
+	padding-top:14px;
+	margin:auto;
+	box-shadow: 4px 4px #888888;
+	border-radius: 6px;
+	font-size:1.4em;
+	font-weight:bold
+}
+
+
+.bt:hover{
+
+	cursor:pointer;
+	background:#ffa856;
+}
+
+
+.laranja{
+	
+	background:#FF8103;
+	color:#FFF;
+}
+
+
+
+
+@media (max-width: 930px){
+	
+#servicos .item_servico{padding:10px 0px 0px 0px;width:98%;margin:0px 1% 0px 1%}
+
+.item_clientes_principais{width:50%;height:150px}
+
+.item_clientes{width:33.3%;height:150px}	
+}
+
+
+
+
+@media (min-width: 931px) and (max-width: 1250px){
+
+#servicos .item_servico{padding:30px 0px 0px 0px;width:98%;margin:0px 1% 0px 1%}
+
+.item_clientes_principais{width:33.3%;height:150px}
+
+.item_clientes{width:20%;height:150px}
+}
+
+
+
+
+@media (min-width: 1251px){
+
+#servicos .item_servico{padding:30px 0px 0px 0px;width:48%;margin:0px 1% 0px 1%}
+
+.item_clientes_principais{width:25%;height:150px}
+
+.item_clientes{width:16.6%;height:150px}
+}
+
